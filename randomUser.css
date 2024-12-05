@@ -1,0 +1,108 @@
+
+.userDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px; 
+    margin: 20px;
+}
+
+.grid-container {
+    display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 15px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 16px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 180px;
+        text-align: center;
+}
+
+.grid-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.grid-container h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.grid-container h3:last-child {
+    color: #777;
+    font-size: 14px;
+}
+
+.generate{
+    display: flex;
+        gap: 8px;
+        justify-content: center;
+        display: flex;
+            gap: 8px;
+            /* width: 459px; */
+            height: 54px;   
+            flex-direction: row;
+            align-content: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* align-items: center; */
+}
+.generate button{
+    height: 40px;
+    background-color: #3498db;  
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.generate label{
+    color: rgb(12, 60, 61);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+
+}
+.generate input{
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+.container{
+    background-color: #dadede;
+    border-radius: 19px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.userGenerator{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    color: #43a2c394;
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+.validationData{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+}
+.inputField{
+    display: flex;
+        align-items: center;
+        gap: 8px;
+}
